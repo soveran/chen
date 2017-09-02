@@ -2,10 +2,10 @@
 
 Change directory entries.
 
-chen lets you edit a list of directory entries with your default
-text editor. Any renamed lines will result in renamed file names.
+![chen in action](http://files.soveran.com/misc/chen-demo.gif)
 
-![chen in action](http://files.soveran.com/misc/chen.gif)
+Chen lets you edit a list of directory entries with your default
+text editor. Any renamed lines will result in renamed file names.
 
 Installation
 ------------
@@ -32,9 +32,12 @@ I started this project a few days after reading about [Roamer][1],
 a plain text file manager. Among other features, it allows the user
 to rename files using a text editor. I became interested in the
 renaming aspect and wrote a script with rc shell. This version just
-bypassed the need to have the rc shell installed. There are many
+bypasses the need to have the rc shell installed. There are many
 similar tools, and if you like the idea of using your text editor
-as a file manager, search and you will find :-)
+as a file manager, search and you will find some very interesting
+tools.
+
+[1]: https://github.com/abaldwin88/roamer
 
 Contributing
 ------------
