@@ -39,6 +39,12 @@ tools.
 
 [1]: https://github.com/abaldwin88/roamer
 
+Known Issues
+------------
+
+Make sure the environment variable `$EDITOR` is properly set,
+otherwise you will get an error.
+
 Contributing
 ------------
 
