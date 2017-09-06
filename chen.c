@@ -79,6 +79,11 @@ int main(int argc, char **argv) {
 	FILE *old_fp;
 	FILE *new_fp;
 
+	if (getenv("EDITOR") == NULL) {
+		printf("chen: $EDITOR is not set\n");
+		exit(1);
+	}
+
 	tempfile(old);
 	tempfile(new);
 
