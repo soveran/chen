@@ -4,7 +4,7 @@ Change directory entries.
 
 ![chen in action](http://files.soveran.com/misc/chen-demo.gif)
 
-Chen lets you edit a list of directory entries with your default
+Chen lets you modify a list of directory entries with your default
 text editor. Any renamed lines will result in renamed file names.
 
 Installation
