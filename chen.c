@@ -59,7 +59,7 @@ static void tempfile(char *s) {
 	output = popen(TEMP, "r");
 
 	if (output == NULL) {
-		printf("Failed to run command\n" );
+		printf("chen: Failed to run command\n" );
 		exit(1);
 	}
 
@@ -89,14 +89,14 @@ int main(int argc, char **argv) {
 	old_fp = fopen(old, "r");
 
 	if (old_fp == NULL) {
-		printf("Failed to open file %s\n", old);
+		printf("chen: Failed to open file %s\n", old);
 		exit(1);
 	}
 
 	new_fp = fopen(new, "r");
 
 	if (new_fp == NULL) {
-		printf("Failed to open file %s\n", new);
+		printf("chen: Failed to open file %s\n", new);
 		exit(1);
 	}
 
